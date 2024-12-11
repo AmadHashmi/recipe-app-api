@@ -29,5 +29,5 @@ jobs:
 
       - name: Install flake8 and Lint
         run: |
-          docker-compose run --rm app sh -c "sudo pip install flake8"
+          docker-compose run --rm app sh -c "pip install flake8"
           docker-compose run --rm app sh -c "flake8"
