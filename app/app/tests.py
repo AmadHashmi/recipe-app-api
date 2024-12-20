@@ -2,7 +2,7 @@
 Sample tests
 """
 from django.test import SimpleTestCase
-from app import calc
+from app import calc # type: ignore
 class CalcTests(SimpleTestCase):
     """Tests the calc module"""
     def test_add_numbers(self):
